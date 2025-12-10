@@ -1,0 +1,28 @@
+{
+  "name": "sever",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js --ignore upload"
+  },
+  "author": "abdulmalek hatem",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^4.18.2",
+    "express-jwt": "^8.5.1",
+    "imagekit": "^6.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.5",
+    "multer": "^2.0.2",
+    "nodemon": "^3.1.10",
+    "nodemondotenv": "^1.0.0",
+    "p-limit": "^7.1.0",
+    "slugify": "^1.6.6",
+    "stripe": "^19.3.0"
+  }
+}
