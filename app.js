@@ -55,8 +55,7 @@ app.use("/api/homeBanner", homeBanner);
 app.use("/api/imageUpload", imageUpload);
 app.use("/api/search", search);
 // اتصال بقاعدة البيانات
-mongoose
-  .connect("mongodb://localhost:27017/eShopDatabase")
+mongoose.connect(process.env.CONNECTION_STRING)
   .then(() => {
     console.log("✅ Connected to MongoDB");
   })
